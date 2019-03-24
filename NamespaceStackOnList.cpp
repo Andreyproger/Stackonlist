@@ -76,7 +76,15 @@ namespace andre{
       }
       
  #ifndef NDEBUG
-      
+      void dump() const
+      {
+        if(size() <=  0)
+        {
+          std::cerr << "Stack is empty!" << std::endl;
+        }
+        for(int i = 0; i < size(); i++)
+          std::cout << arr[i] << std::endl;
+      }
   }
 };
 //namespace
