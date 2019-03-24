@@ -1,6 +1,7 @@
 #include <iostream>
 #include <list>
 #include <cassert>
+#include "NamespaceStackOnList.cpp"
 
 void test_0 ()
 {
